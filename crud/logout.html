@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <title>CRUD</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Gestão de Produtos</h1>
+
+  <form id="produtoForm">
+    <label for="categoria">Categoria</label>
+    <select id="categoriaSelect" required>
+      <option value="">Selecione uma categoria</option>
+      <option value="Roupa">Roupa</option>
+      <option value="Comida">Comida</option>
+      <option value="Artigos Esportivos">Artigos Esportivos</option>
+      <option value="Beleza">Beleza</option>
+    </select>
+
+    <label for="nome">Nome</label>
+    <input type="text" id="nomeInput" placeholder="Nome" required>
+
+    <label for="preco">Preço</label>
+    <input type="number" id="precoInput" placeholder="Preço" required>
+
+    <label for="descricao">Descrição</label>
+    <input type="text" id="descricaoInput" placeholder="Descrição" required>
+
+    <button type="submit">Adicionar</button>
+  </form>
+
+  <table id="produtosTable">
+    <thead>
+      <tr>
+        <th>Categoria</th>
+        <th>Nome</th>
+        <th>Preço</th>
+        <th>Descrição</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody id="produtosBody">
+     
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<button class="logout-btn">Logout</button>
+</div>
+<script src="./logout.js"></script>
+</div>
+
+<script src="login.js"></script>
+    
+</body>
+</html>
