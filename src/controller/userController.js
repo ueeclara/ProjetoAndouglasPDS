@@ -1,19 +1,21 @@
 import UserModel from "../model/UserModel.js";
 
 class UserController {
-  async cadastrarUser(req, res) {
-    const usuario = req.body;
-    try {
-      await UserModel.salvar(usuario.categoria, usuario.nome, usuario.preco, usuario.descricao);
-      return res
-        .status(200)
-        .send({ message: "Usuário foi cadastrado com sucesso!" });
-    } catch (erro) {
-      return res
-        .status(500)
-        .send({ message: `Erro ao cadastrar usuário - ${erro}` });
+    async cadastrarUser(req, res) {
+      const usuario = req.body;
+      try {
+        await UserModel.salvar(usuario.categoria, usuario.nome, usuario.preco, usuario.descricao);
+        return res
+          .status(200)
+          .send({ message: "Usuário foi cadastrado com sucesso!" });
+      } catch (erro) {
+        return res
+          .status(500)
+          .send({ message: `Erro ao cadastrar usuário - ${erro}` });
+      }
     }
-  }
+    
+
   async listarUsers(req, res) {
     try {
       console.log("enrou");
