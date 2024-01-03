@@ -1,12 +1,13 @@
 import conexaoBancoDeDados from "../database/dbconnect.js";
 
 class UserModel {
-  async salvar(categoria, nome, preco, descricao) {
+  
+  async salvar(categoria, nome, preco, descricao){
     const conexao = await conexaoBancoDeDados.conectar();
     const comandoSQL =
       "INSERT INTO users(categoria, nome, preco, descricao) VALUES ($1,$2,$3,$4)";
-    const values = [categoria, nome, preco, descricao];
-    return await conexao.query(comandoSQL, values);
+      const values = [categoria, nome, preco, descricao];
+      return await conexao.query(comandoSQL, values)
   }
   async listasUsers() {
     const conexao = await conexaoBancoDeDados.conectar();
