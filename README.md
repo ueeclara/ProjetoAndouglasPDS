@@ -20,11 +20,10 @@ Remova produtoss da base de dados que não são mais necessárias.
 Realize buscas por nome para encontrar produtoss específicos.
 
 ## Tecnologias Utilizadas
-1. Linguagem de Programação: 
-JavaScript
-2. Banco de Dados: MySQL
+1. Linguagem de Programação: JavaScript
+2. Banco de Dados: Postgres
 3. Framework:Node.js
 
 ## Contribuidores
-Ana Clara Dias dos Santos -20201214010022
-Jaille Paula Batista Santos - 20201214010020
+1. Ana Clara Dias dos Santos -20201214010022
+2. Jaille Paula Batista Santos - 20201214010020
