@@ -15,9 +15,9 @@ Forneça detalhes como, ID, nome, descrição, preço, quantidade em estoque.
 Edite as informações das produtos existentes.
 Atualize o nome, descrição, preço, quantidade em estoque.
 4. Exclusão de Produtos:
-Remova produtoss da base de dados que não são mais necessárias.
+Remova produtos da base de dados que não são mais necessárias.
 5. Pesquisa de Produtos:
-Realize buscas por nome para encontrar produtoss específicos.
+Realize buscas por nome para encontrar produtos específicos.
 
 ## Tecnologias Utilizadas
 1. Linguagem de Programação: JavaScript
