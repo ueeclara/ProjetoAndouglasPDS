@@ -2,7 +2,7 @@ import pg from "pg";
 
 async function conectar() {
   const pool = new pg.Pool({
-    //criando o nosso mando de dados
+    //criando o nosso banco de dados
     connectionString:
       "postgres://aluno_20201214010022:7063@177.136.200.206:5439/temp?schema=aluno_20201214010022",
   });
